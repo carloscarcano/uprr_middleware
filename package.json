@@ -1,0 +1,14 @@
+{
+  "name": "uprr_middleware",
+  "version": "1.0.0",
+  "description": "REST API middleware entre la UPRR y DSpace",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Juan Carlos Carcano Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
