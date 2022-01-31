@@ -18,6 +18,8 @@ var cargaDocumento = function(req, res)
         res.json({ mensaje: mensaje });
         return false;
     }
+
+    res.json({ mensaje: mensaje });
 }
 
 function esNulo(variable)
